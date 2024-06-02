@@ -1,19 +1,13 @@
-# sioninver
+# inversion
 
 Inverses objects: turns keys into values ​​and values ​​and keys
 
 ### Getting started
 
-```bash
-$ npm install sioninver
-```
-
-**Inversion example:**
-
 ```js
-const sioninver = require('sioninver')
+const inversion = require('inversion')
 
-const result = sioninver({
+const result = inversion({
   '201': 'Created',
   '404': 'Not Found',
   '500': 'Server Error'
