@@ -1,24 +1,24 @@
 {
-  "name": "sioninver",
+  "name": "@gabrielrufino/inversion",
   "version": "1.0.3",
   "description": "Inverses objects: turns keys into values ​​and values ​​and keys",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "test": "node index.test.js"
+    "test": "node src/index.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielrufino/sioninver.git"
+    "url": "git+https://github.com/gabrielrufino/inversion.git"
   },
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "funding": "https://github.com/sponsors/gabrielrufino",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabrielrufino/sioninver/issues"
+    "url": "https://github.com/gabrielrufino/inversion/issues"
   },
-  "homepage": "https://github.com/gabrielrufino/sioninver#readme",
+  "homepage": "https://github.com/gabrielrufino/inversion#readme",
   "devDependencies": {
     "@gabrielrufino/eslint-config": "^1.5.0",
     "eslint": "^8.43.0"
