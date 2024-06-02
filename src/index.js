@@ -1,4 +1,4 @@
-function sioninver(object) {
+function inversion(object) {
   if ([undefined, null].includes(object)) {
     throw new Error('Parameter is empty');
   }
@@ -22,8 +22,8 @@ function sioninver(object) {
     throw new Error('There is some repetition of values');
   }
 
-  const inversion = entries.map(([key, value]) => ([value, key]));
-  return Object.fromEntries(inversion);
+  const reverseEntries = entries.map(([key, value]) => ([value, key]));
+  return Object.fromEntries(reverseEntries);
 }
 
-module.exports = sioninver;
+module.exports = inversion;
