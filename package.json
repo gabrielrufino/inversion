@@ -4,6 +4,8 @@
   "description": "Inverses objects: turns keys into values ​​and values ​​and keys",
   "main": "src/index.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
     "test": "node src/index.test.js"
   },
   "repository": {
@@ -12,9 +14,13 @@
   },
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "funding": "https://github.com/sponsors/gabrielrufino",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/gabrielrufino/inversion/issues"
   },
-  "homepage": "https://github.com/gabrielrufino/inversion#readme"
+  "homepage": "https://github.com/gabrielrufino/inversion#readme",
+  "devDependencies": {
+    "@gabrielrufino/eslint-config": "^1.5.0",
+    "eslint": "^8.43.0"
+  }
 }
