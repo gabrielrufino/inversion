@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/inversion",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Inverses objects: turns keys into values ​​and values ​​and keys",
   "main": "src/index.js",
   "scripts": {
